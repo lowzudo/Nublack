@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NuBlack | Segurança Bancária de Primeira</title>
+    <link rel="stylesheet" href="seguranca.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo">
+                <span class="texto-logo">NuBlack</span>
+                <span class="subtexto-logo">Segurança em primeiro lugar</span>
+            </div>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#seguranca">Segurança</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="login.html">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="botao-menu-mobile" id="botaoMenuMobile">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="secao-destaque">
+            <div class="container">
+                <h1>Proteção Financeira <span class="destaque">Inteligente</span></h1>
+                <p class="texto-destaque">Soluções avançadas de segurança bancária para proteger seu patrimônio 24/7</p>
+                <button class="botao-acao" id="botaoVerificarSeguranca">Verifique sua segurança</button>
+            </div>
+        </section>
+
+        <section id="servicos" class="servicos">
+            <div class="container">
+                <h2>Nossos <span class="destaque">Serviços</span></h2>
+                <div class="grade-servicos">
+                    <div class="cartao-servico">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Proteção de Conta</h3>
+                        <p>Monitoramento em tempo real contra fraudes e acessos não autorizados</p>
+                    </div>
+                    <div class="cartao-servico">
+                        <i class="fas fa-lock"></i>
+                        <h3>Criptografia Avançada</h3>
+                        <p>Todas as transações protegidas com criptografia de última geração</p>
+                    </div>
+                    <div class="cartao-servico">
+                        <i class="fas fa-bell"></i>
+                        <h3>Alertas Imediatos</h3>
+                        <p>Notificações instantâneas para qualquer atividade suspeita</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="seguranca" class="recursos-seguranca">
+            <div class="container">
+                <h2>Tecnologias de <span class="destaque">Segurança</span></h2>
+                <div class="botoes-abas">
+                    <button class="botao-aba ativo" data-aba="biometria">Biometria</button>
+                    <button class="botao-aba" data-aba="token">Token Digital</button>
+                    <button class="botao-aba" data-aba="blockchain">Blockchain</button>
+                </div>
+                <div class="conteudo-aba ativo" id="biometria">
+                    <div class="conteudo-recurso">
+                        <div class="texto-recurso">
+                            <h3>Autenticação Biométrica</h3>
+                            <p>Nossa tecnologia de reconhecimento facial e digital garante que apenas você tenha acesso à sua conta, com precisão de 99,9%.</p>
+                            <ul class="lista-recurso">
+                                <li>Reconhecimento facial 3D</li>
+                                <li>Leitor digital de alta sensibilidade</li>
+                                <li>Reconhecimento de voz</li>
+                            </ul>
+                        </div>
+                        <div class="imagem-recurso">
+                            <div class="animacao-biometrica" id="animacaoBiometrica"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo-aba" id="token">
+                    <div class="conteudo-recurso">
+                        <div class="texto-recurso">
+                            <h3>Token Digital Dinâmico</h3>
+                            <p>Geração de códigos de acesso únicos para cada transação, garantindo máxima segurança em todas as operações.</p>
+                            <ul class="lista-recurso">
+                                <li>Códigos que expiram em 30 segundos</li>
+                                <li>Compatível com todos os dispositivos</li>
+                                <li>Sem necessidade de hardware adicional</li>
+                            </ul>
+                        </div>
+                        <div class="imagem-recurso">
+                            <div class="exibicao-token" id="exibicaoToken">
+                                <span class="codigo-token">000000</span>
+                                <div class="temporizador-token"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo-aba" id="blockchain">
+                    <div class="conteudo-recurso">
+                        <div class="texto-recurso">
+                            <h3>Tecnologia Blockchain</h3>
+                            <p>Utilizamos blockchain para registrar todas as transações de forma imutável e transparente, garantindo auditabilidade completa.</p>
+                            <ul class="lista-recurso">
+                                <li>Registros imutáveis</li>
+                                <li>Transparência total</li>
+                                <li>Proteção contra adulteração</li>
+                            </ul>
+                        </div>
+                        <div class="imagem-recurso">
+                            <div class="animacao-blockchain">
+                                <div class="nodo-blockchain"></div>
+                                <div class="nodo-blockchain"></div>
+                                <div class="nodo-blockchain"></div>
+                                <div class="conector-blockchain"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verificacao-seguranca" id="verificacaoSeguranca">
+            <div class="container">
+                <h2>Verifique sua <span class="destaque">Segurança</span></h2>
+                <div class="etapas-verificacao">
+                    <div class="etapa">
+                        <div class="numero-etapa">1</div>
+                        <p>Configure a verificação em duas etapas</p>
+                    </div>
+                    <div class="etapa">
+                        <div class="numero-etapa">2</div>
+                        <p>Atualize suas senhas regularmente</p>
+                    </div>
+                    <div class="etapa">
+                        <div class="numero-etapa">3</div>
+                        <p>Ative notificações de transações</p>
+                    </div>
+                </div>
+                <div class="medidor-seguranca">
+                    <div class="barra-medidor" id="barraMedidor"></div>
+                    <div class="rotulos-medidor">
+                        <span>Básico</span>
+                        <span>Intermediário</span>
+                        <span>Avançado</span>
+                    </div>
+                </div>
+                <button class="botao-acao" id="botaoMelhorarSeguranca">Melhore sua segurança agora</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="conteudo-rodape">
+                <div class="secao-rodape">
+                    <h4>NuBlack</h4>
+                    <p>O banco mais seguro do mercado, com tecnologia de ponta para proteger seu dinheiro.</p>
+                </div>
+                <div class="secao-rodape">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Política de Segurança</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                <div class="secao-rodape">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (11) 4004-4004</p>
+                    <p><i class="fas fa-envelope"></i> contato@nublack.com</p>
+                </div>
+            </div>
+            <div class="rodape-inferior">
+                <p>&copy; 2023 NuBlack. Todos os direitos reservados.</p>
+                <div class="icones-sociais">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
