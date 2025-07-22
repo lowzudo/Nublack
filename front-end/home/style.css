@@ -183,11 +183,11 @@ body {
 }
 
 .imagem-principal .cartao {
-    height: 350px;
+    height: 370px;
     width: 550px;
     position: absolute;
     right: 0;
-    margin-top: -160px;
+    margin-top: -170px;
     transform: translateY(-50%);
     animation: flutuar 6s infinite ease-in-out;
 }
@@ -456,6 +456,7 @@ footer {
 }
 
 .imagem-login img {
+    height: 660px;
     width: 100%;
     max-width: 500px;
     animation: flutuar 6s infinite ease-in-out;
